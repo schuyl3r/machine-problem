@@ -21,3 +21,8 @@
 - GET /api/products/:id - Get product by ID
 - POST /api/products - Add a new product
 - DELETE /api/products/:id - Delete a product by ID
+
+## Limitations
+- CSV file as a basic data storage, which is not scalable for large datasets
+- No authentication or authorization
+- Bare minimum data validation and error handling
